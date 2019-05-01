@@ -1,4 +1,4 @@
-#Tutorial 1 : A GDAL Introduction
+# Tutorial 1 : A GDAL Introduction
 **Introduction**
 In this tutorial I will be introducing GDAL and giving examples of how to load a geotiff with GDAL. If you wish to skip this tutorial for some OpenGL, then your best bet is tutorial 2 :D (if your not curious about GDAL).
 
@@ -15,7 +15,7 @@ GDAL stands Geospatial Data Abstraction Library and is used as a library to read
 
  As you can see from the image above raster datasets are simply just like an image with pixels with evenly distributed cells, while vector datasets can are represented by points that can be connected or not connected at all. 
  
- **Why are datasets represented either as a vector or raster? **
+ **Why are datasets represented either as a vector or raster?**
 
 Vector and raster datasets are both good at representing different types of datasets. For example a road could be represented as a raster dataset, but it is more suit to be a vector dataset because it can be represented with a few points rather than as a raster that may require more pixels than points in a vector dataset. A vegetation map could be represented as a vector dataset, but it doesn't make sense for a vegatation map to be represent as points because a given point can represent a grided area. 
 
